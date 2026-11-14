@@ -17,7 +17,6 @@ use crate::follow::{open_shared, Tailer, DEFAULT_POLL_INTERVAL};
 use crate::parse::parse_line;
 use crate::render::Renderer;
 
-#[must_use]
 pub fn run() -> ExitCode {
     console::ignore_sigpipe();
     let cli = match Cli::try_parse_from(std::env::args_os()) {
