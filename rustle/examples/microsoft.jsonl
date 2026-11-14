@@ -1,0 +1,3 @@
+{"Timestamp":"2026-11-14T10:05:00.000Z","LogLevel":"Warning","Category":"App.Weather","Message":"cache miss for Seattle","State":{"Message":"state message should not win","TraceId":"trace-state","CorrelationId":"corr-state","{OriginalFormat}":"cache miss for {City}"}}
+{"timestamp":"2026-11-14T10:06:00.500Z","level":"Information","message":"loaded config","properties":{"correlation_id":"corr-props","SourceContext":"App.Config"}}
+{"Timestamp":"2026-11-14T10:07:00Z","LogLevel":"Error","Message":"state was a string","State":"not-an-object"}

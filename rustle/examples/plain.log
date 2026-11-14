@@ -1,0 +1,4 @@
+2026-11-14T08:00:00Z INFO server listening
+2026-11-14T08:00:01+00:00 [ERROR] connection failed trace=abc123
+INFO: startup complete
+this line has no structure at all
