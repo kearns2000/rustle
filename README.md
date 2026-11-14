@@ -3,7 +3,7 @@
 [![Rust](https://img.shields.io/badge/rust-stable%20%7C%20edition%202021-000000?style=flat&logo=rust)](https://www.rust-lang.org)
 [![Build](https://github.com/kearns2000/rustle/actions/workflows/ci.yml/badge.svg)](https://github.com/kearns2000/rustle/actions/workflows/ci.yml)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-0078D4?style=flat)](https://github.com/kearns2000/rustle/actions/workflows/ci.yml)
-[![Licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](../LICENSE)
+[![Licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/tests-cargo-000000?style=flat&logo=rust)](tests)
 
 Find the signal in your logs.
@@ -26,12 +26,6 @@ Or install the binary onto your PATH:
 ```powershell
 cargo install --path . --locked
 rustle --help
-```
-
-From the repository root the same install is:
-
-```powershell
-cargo install --path rustle --locked
 ```
 
 The commands below also work in Unix shells. Quote glob patterns everywhere so the shell does not expand them before Rustle sees them. PowerShell does not expand globs for native programs; Rustle expands `*`, `?`, and `[...]` itself.
@@ -219,7 +213,7 @@ Files and standard input are decoded as UTF-8. A leading UTF-8 BOM is removed. C
 
 ## Development
 
-From the `rustle` directory:
+From the repository root:
 
 ```text
 cargo fmt --check
@@ -232,8 +226,8 @@ GitHub Actions runs the same checks on Windows and Linux.
 
 ## Contributing
 
-Contributions are welcome. See [CONTRIBUTING.md](../CONTRIBUTING.md) for setup, project layout, and pull request expectations. This project follows the [Code of Conduct](../CODE_OF_CONDUCT.md). Security reports go through [SECURITY.md](../SECURITY.md).
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, project layout, and pull request expectations. This project follows the [Code of Conduct](CODE_OF_CONDUCT.md). Security reports go through [SECURITY.md](SECURITY.md).
 
 ## Licence
 
-MIT. See [LICENSE](../LICENSE). Copyright (c) 2026 PKSoftLibs.
+MIT. See [LICENSE](LICENSE). Copyright (c) 2026 PKSoftLibs.

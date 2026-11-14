@@ -17,22 +17,22 @@ Thanks for your interest in contributing. Rustle is a small command-line tool fo
 
 ```bash
 git clone https://github.com/kearns2000/rustle.git
-cd rustle/rustle
+cd rustle
 cargo test
 ```
 
 ## Project layout
 
 ```text
-rustle/src/          # CLI library
+src/                 # CLI library
   cli.rs             # Arguments
   discover.rs        # Files, directories, and globs
   parse.rs           # JSON and plain-text lines
   filter.rs          # Combined filters
   render.rs          # Text and JSON output
   follow.rs          # Live tail
-rustle/tests/cli.rs  # Command-line integration tests
-rustle/examples/     # Sample logs
+tests/cli.rs         # Command-line integration tests
+examples/            # Sample logs
 .github/workflows/   # Windows and Linux CI
 ```
 
@@ -46,7 +46,7 @@ rustle/examples/     # Sample logs
 
 ## Running checks
 
-From the `rustle` directory:
+From the repository root:
 
 ```bash
 cargo fmt --check
